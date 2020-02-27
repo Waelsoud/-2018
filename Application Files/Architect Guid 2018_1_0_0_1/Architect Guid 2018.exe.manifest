@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Architect Guid 2018.exe" version="1.0.0.1" publicKeyToken="08bd8a006c63c48e" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\Property.ico" asmv2:publisher="Wael Abd.Kader" co.v1:suiteName="Wael .A.K" asmv2:product="Architect Guide 2018" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Architect Guid 2018" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Architect Guid 2018.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Architect Guid 2018.exe" size="24397312">
+      <assemblyIdentity name="Architect Guid 2018" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YzPeW45DPzt5UJW+AdyBQkymaNw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="af\Architect Guid 2018.resources.dll" size="6656">
+      <assemblyIdentity name="Architect Guid 2018.resources" version="1.0.0.0" language="af" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>PXRZYxd7ag6g+ZpzeRQTU7sGPaI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="am-ET\Architect Guid 2018.resources.dll" size="244736">
+      <assemblyIdentity name="Architect Guid 2018.resources" version="1.0.0.0" language="am-ET" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>sq23Hbd2EwPDVhS6hpFcX2O524o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar\Architect Guid 2018.resources.dll" size="2551808">
+      <assemblyIdentity name="Architect Guid 2018.resources" version="1.0.0.0" language="ar" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Q6vpR5JQlL/N8Oj0E+kEoAQuq4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar-DZ\Architect Guid 2018.resources.dll" size="6656">
+      <assemblyIdentity name="Architect Guid 2018.resources" version="1.0.0.0" language="ar-DZ" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>64xntTKkXejxdaQWgiAZWarNcH4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar-EG\Architect Guid 2018.resources.dll" size="216064">
+      <assemblyIdentity name="Architect Guid 2018.resources" version="1.0.0.0" language="ar-EG" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>f7cj8MpqTrRt0G1/Doln7GUqp00=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\Architect Guid 2018.resources.dll" size="216064">
+      <assemblyIdentity name="Architect Guid 2018.resources" version="1.0.0.0" language="en-US" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mG8oXd1QROGZYJt/TWRnKxal1+E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Architect Guid 2018.exe.config" size="3866">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zFEAvuexoDTkpSeL17O/pc05ixo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Property.ico" size="211424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2qbCxf5Os1LfjbXQ9NKy1YcY4E8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=WEZO-PC\WEZO" issuerKeyHash="007e833888a36fe1bdccd99171d5666b9bcf4d53" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>le7w2SaLLZQFbmSnGLHsIr5aOsc=</DigestValue></Reference></SignedInfo><SignatureValue>dGlUBoPsIihZ6x2AaMPI2AgQSJ71w9RXFcZiO7SaLmoNgZLX679PizFGD8qKw32z59u7h1sf8g9GHTOYHJxdjN+Z64O64UGDuqRAjUNRqDtlbrS9mu8zisehGIV2d2NfMHhdmv1+i1g+/nGxK5c7Fd+dI4lw4KqkgrzAmM1N5iQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ojbURVavcgYrqKFYV4SCH8ddq5ygw7itXPpxIN4yvm14CiJ3nxLQIfk+zGJK6rHOcj20VnuOYm4pX2WgdpuxC92Xu0l3olvDteMxn90aVfVo/BLhkQw9xYkaYnGoBzdwIYDsUqoznnmfK3R+3i40Iox6kdamfMPgGR+Mj77qIpM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c73a5abe22ecb118a7646e05942d8b26d9f0ee95" Description="" Url=""><as:assemblyIdentity name="Architect Guid 2018.exe" version="1.0.0.1" publicKeyToken="08bd8a006c63c48e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WEZO-PC\WEZO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gG5BdjpQeZkdv2AHAr5JfUKIi0M=</DigestValue></Reference></SignedInfo><SignatureValue>g9IKtOOhPEVZolUgeo9jJEL92Cn3WzuNPcS3hFq+uQbk115A95acXFVc5QkY8+Y9fxqJkY9gB0XpEWO2JcVrTNohYruxQgLzjTe8xkHBDoErOnAgqtq//XPvgNVw+VX3Z3q9b2e9mKzctAgIr8jztVu/ZEs2dc43u5JcWW6EX2M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ojbURVavcgYrqKFYV4SCH8ddq5ygw7itXPpxIN4yvm14CiJ3nxLQIfk+zGJK6rHOcj20VnuOYm4pX2WgdpuxC92Xu0l3olvDteMxn90aVfVo/BLhkQw9xYkaYnGoBzdwIYDsUqoznnmfK3R+3i40Iox6kdamfMPgGR+Mj77qIpM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQL47F/O+JZ4BL0x6D46EkZjANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAVwBFAFoATwAtAFAAQwBcAFcARQBaAE8wHhcNMTgwMjAxMTcyMDU2WhcNMTkwMjAxMjMyMDU2WjAjMSEwHwYDVQQDHhgAVwBFAFoATwAtAFAAQwBcAFcARQBaAE8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKI21EVWr3IGK6ihWFeEgh/HXaucoMO4rVz6cSDeMr5teAoid58S0CH5PsxiSuqxznI9tFZ7jmJuKV9loHabsQvdl7tJd6Jbw7XjMZ/dGlX1aPwS4ZEMPcWJGmJxqAc3cCGA7FKqM555nyt0ft4uNCKMepHWpnzD4BkfjI++6iKTAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAhhjh33kslvTX4lEupnlX1WCT9O3sDRTTcYyFZQCJmvZzbhiKLU2ITkSQBms4OCit6Nw6D3O2DDFq9M2FzluM/VUvUMHWsOIb2KmzkpnB6ZzfjvLvtriKgzzWUJ9zSfB1rioSKZpvko5nTun20b8gU/cPDkfPQ32CIK+Ybw/N2UE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
